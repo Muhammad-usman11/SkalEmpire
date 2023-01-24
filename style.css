@@ -1,0 +1,360 @@
+
+@font-face {
+    font-family: 'Nordica';
+    src: url('NordicaRegular.woff2') format('woff2'),
+        url('NordicaRegular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nordica';
+    src: url('NordicaRegular.woff2') format('woff2'),
+        url('NordicaRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@import url(//db.onlinewebfonts.com/c/0016f77f50d636d6eb6336a8a9d5d3d5?family=Felix+Titling);
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background-color: rgb(111, 105, 105);
+}
+img{
+    width: 100%;
+}
+.wrapper{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+.arrowbox{
+    max-width: 454px;
+margin: auto;
+text-align: center;
+}
+.arrowbox h1{
+    font-family: 'Felix Titling MT';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+text-transform: uppercase;
+color: white;
+}
+.arrowtext{
+    max-width: 600px;
+margin: auto;
+text-align: center;
+}
+.arrowtext h2{
+    font-family: 'Felix Titling MT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+}
+.arrowtext p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+}
+
+.col3gridbox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px;
+}
+.col3grid{
+    padding: 70px 0px;
+}
+.col3gridimage{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 356px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.col31{
+    background-image: url("./images/col3g1.png");
+}
+.col32{
+    background-image: url("./images/col3g2.png");
+}
+.col33{
+    background-image: url("./images/col3g3.png");
+}
+.col34{
+    background-image: url("./images/col3g2.png");
+}
+.col35{
+    background-image: url("./images/col3g4.png");
+}
+.col36{
+    background-image: url("./images/col3g5.png");
+}
+.col3gridimage h1{
+    font-family: 'Felix Titling MT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.145em;
+    
+    color: #FFFFFF;    
+}
+.viewall button{
+    min-width: 270px;
+    height: 60px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 172.68%;
+    
+    /* identical to box height, or 28px */
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    
+    color: black;    
+    
+    background: #E6E6E6;    
+}
+.viewall{
+    text-align: center;
+margin-top: 40px;
+}
+
+.bestsellersec{
+    padding: 70px 0px;
+}
+.bestsellerbox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;    
+}
+.bestseller{
+    text-align: center;
+    
+    text-transform: uppercase;    
+}
+.bestseller p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 149.68%;
+    
+    /* or 27px */
+    
+    letter-spacing: 0.1em;
+    
+    color: white;
+    border-bottom: 1px solid white;
+padding-bottom: 18px;
+    
+    
+}
+.bestseller h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    
+    /* identical to box height */
+    margin-top: 10px;
+    
+    color: white;
+    
+    
+}
+
+.newyearsec{
+    padding: 70px 0px;
+    background-image: url("./images/newyear.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.newyearbox{
+    max-width: 940px;
+    margin: auto;
+    text-align: center;    
+}
+.newyearbox h1{
+    font-family: 'Felix Titling MT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.newyearbox p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 20px;
+    
+    color: #FFFFFF;    
+}
+.newyearbox button{
+    height: 60px;
+    background: #E6E6E6; 
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 172.68%;
+
+/* identical to box height, or 28px */
+text-align: center;
+letter-spacing: 0.025em;
+text-transform: uppercase;
+min-width: 290px;
+margin-top: 30px;
+color: #121317;   
+}
+
+.skalempiresec{
+    padding: 70px 0px;
+}
+.skalempirebox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;     
+}
+.skalempire h1{
+    font-family: 'Felix Titling MT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 149.68%;
+    
+    /* or 27px */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #FFFFFF;
+    border-bottom: 1px solid white;
+padding-bottom: 18px;
+    
+}
+.skalempire p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 149.68%;
+    
+    /* or 21px */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.viking_main {
+    text-align: center;
+}
+
+.viking_h1 {
+    Font-family: "Felix Titling MT";
+    Font-style: "Regular";
+    Font-size: 40px;
+
+}
+
+.viking_bg {
+    background-image: url("./images/vikingbg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 270px;
+    background-size: cover;
+}
+
+.viking_sec1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.viking_sec2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.viking_sec1_img {
+    max-width: 300px;
+}
+
+.viking_sec1_p {
+    Font-family: Open Sans;
+    Font-style: Regular;
+    Font-size: 18px;
+    margin-top: 10%;
+}
+
+.viking_sec1_pp {
+    text-align: right;
+}
+
+.viling_main_container {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 40%;
+    /* row-gap: 25%; */
+    padding: 120px 30px;
+}
+
+.viking_sec_bottom {
+    display: flex;
+
+    /* gap: 312px; */
+    margin-top: 6%;
+    gap: 35%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.viking_p2 {
+    text-align: right;
+}
+
+.viking_sec1_2p {
+    font-size: 20px;
+}
+
+.viking_sec1_img {
+    max-width: 230px;
+}
+
+
