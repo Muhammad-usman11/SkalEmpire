@@ -5,6 +5,14 @@
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
     }
+    .arrowbox{
+        max-width: 220px;
+    }
+    .arrowbox h1{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
     .bestsellerbox{
         
         grid-template-columns: repeat(1, 1fr);
@@ -27,72 +35,74 @@
     }
 }
 
-
-
 @media all and (min-width:568px) {
-    .viking_main {
-        text-align: center;
-    }
 
-    .viking_h1 {
-        Font-family: "Felix Titling MT";
-        Font-style: "Regular";
-        Font-size: 75px;
-
-    }
-
-    .viking_bg {
-        background-image: url('./images/vikingbg.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 100%;
-        height: 700px;
-        background-size: cover;
-    }
-
-    .viking_sec1 {
-        display: flex;
-    }
-
-    .viking_sec2 {
-        display: flex;
-    }
-
-
-    .viking_sec1_img {
-        max-width: 300px;
-    }
-
-    .viking_sec1_p {
-        Font-family: Open Sans;
-        Font-style: Regular;
-        Font-size: 18px;
-        margin-top: 10%;
-    }
-    .viking_sec1_pp {
-        text-align: right;
-    }
-
-    .viling_main_container {
+    .about_container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 40%;
-        /* row-gap: 25%; */
-        padding: 120px 30px;
+
     }
 
-    .viking_sec_bottom {
+    .about_sec1_icon_prop {
         display: flex;
-
-        /* gap: 312px; */
-        margin-top: 6%;
-        gap: 35%;
-        padding-left: 50px;
-        padding-right: 50px;
+        gap: 30px;
     }
 
-    .viking_p2 {
-        text-align: right;
+
+    .about_prop_p {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.025em;
+        opacity: 0.75;
+        text-align: left;
+        color: white;
+
     }
+
+    .about_sec1_icon_prop {
+        margin-top: 25px;
+    }
+
+    .about_sec1-text1 {
+        /* identical to box height */
+        text-shadow: 0px 4px 50px rgba(0, 0, 0, 0.35);
+    }
+
+    .about_sec1-text2 {
+
+
+        letter-spacing: 0.025em;
+    }
+
+    .about_prop {
+        margin-top: 20px;
+    }
+
+
+    
+
+    
+
+    .about_images {
+        
+
+    }
+
+    .why_buy_bgImg {
+        
+        
+    }
+    
+    .about_prop{
+        padding: 0px 40px !important;
+
+    }
+
+
+
+
 }
+
+
